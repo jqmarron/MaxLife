@@ -17,8 +17,8 @@ Performs in 5 Steps:
 - ✍️ &nbsp; Estimates the predicted quantile of the outcome distribution (Y) using a quantile regression model (Q) that includes c covariates. Note if c=0, then the predicted quantile is simply the unconditional sample quantile of the marginal distribution of Y. Selecting a specific lifespan percentile is required. By default percentile 90 (P90). 
 - ✍️ &nbsp; Creates an indicator variable (I) that classifies observations within the data set as falling above (I=1) or below (I=0) the predicted percentile.
 - ✍️ &nbsp; Using the indicator variable (I), builds 2x2 contingency table with frequencies of individuals and proportions.
-- ✍️ &nbsp; Tests the significance of the covariates (intervention or treatment). Compares pairwise maximun lifespan between groups using Bonschoo's test.Adjust for multiple test comparison.
-- ✍️ &nbsp; Adjusts p-value for multiple tests using the desired method'
+- ✍️ &nbsp; Tests the significance of the covariates (intervention or treatment). Pairwise compares maximun lifespan between groups using Bonschoo's test. 
+- ✍️ &nbsp; Adjusts p-value for multiple tests using the desired method (BH, FDR...).
 
 <h3> Installation </h3>
 
