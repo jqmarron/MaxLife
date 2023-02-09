@@ -16,5 +16,5 @@ Imports:
     quantreg,
     exact2x2
 RoxygenNote: 7.2.3
-URL: https://github.com/jqmarron/MaxLife
+URL: https://github.com/jqmarron/MaxLife.git
 BugReports: https://github.com/jqmarron/MaxLife/issues
