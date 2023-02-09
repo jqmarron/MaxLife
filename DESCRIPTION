@@ -1,0 +1,20 @@
+Package: MaxLife
+Type: Package
+Title: MaxLife: Maximun lifespan comparison among groups under different treatments or conditions
+Author: Jorge Martinez-Romero
+Maintainer: Jorge Martinez-Romero <jqmarron@gmail.com>
+Description: Method to compare diferences in maximun lifespan between 2 or more groups.
+        It is based in the QT3 method described in "Statistical methods for testing effects on maximum lifespan” 
+        See references.
+Version: 0.1.0
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+Imports:
+    quantreg,
+    exact2x2
+RoxygenNote: 7.2.3
+URL: https://github.com/jqmarron/MaxLife
+BugReports: https://github.com/jqmarron/MaxLife/issues
