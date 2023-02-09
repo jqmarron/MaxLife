@@ -19,13 +19,21 @@ It's based on the QT3 method described in "Statistical methods for testing effec
 
 <h3> Installation </h3>
 
+<h4> Alternative 1 </h4>
+
 If not already installed, install devtools.
 
-install.packages("devtools")
+- install.packages("devtools")
 
 Use devtools to install MaxLife.
 
-devtools::install_github("https://github.com/jqmarron/MaxLife.git")
+- devtools::install_github("https://github.com/jqmarron/MaxLife.git")
+
+<h4> Alternative 2 </h4>
+
+- Download the MaxLife_0.1.0.tar.gz file from Folder pkg.
+
+- In Rstudio open Tool>Install Packages>Packages Archive Files (.zip; .tar.gz) and select location where the  "MaxLife_0.1.0.tar.gz" has been downloaded.
 
 <h3> references </h3>
 

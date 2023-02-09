@@ -1,4 +1,5 @@
-Maxlife<-function(data,treatments,lifespan,percentile=0.90,p_adjust ="BH"){
+#' @export MaxLife_1
+MaxLife_1<-function(data,treatments,lifespan,percentile=0.90,p_adjust ="BH"){
   library(quantreg)
   library(exact2x2)
   library(utils)
