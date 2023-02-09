@@ -28,6 +28,7 @@ Use devtools to install MaxLife.
 devtools::install_github("https://github.com/jqmarron/MaxLife.git")
 
 <h3> references </h3>
+
 - Wang C, Li Q, Redden DT, Weindruch R, Allison DB. "Statistical methods for testing effects on maximum lifespan". Mech Ageing Dev. 2004;125(9):629–32. Method QT3. 
 - David T. Redden, Jose Ramon Fernandez, and David B. Allison "A simple significance test for quantile regression".Statist. Med. 2004; 23:2587–2597 
 
