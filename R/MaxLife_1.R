@@ -1,4 +1,4 @@
-MaxLife_1<-function(data,treatments,lifespan,percentile=0.90,p_adjust ="BH"){
+Maxlife<-function(data,treatments,lifespan,percentile=0.90,p_adjust ="BH"){
   library(quantreg)
   library(exact2x2)
   library(utils)
@@ -46,7 +46,7 @@ MaxLife_1<-function(data,treatments,lifespan,percentile=0.90,p_adjust ="BH"){
     xxx<-boschloo(A1,dim(df1)[1],A2,dim(df2)[1])
     tableA[i,9]<-round(xxx$p.value,digit=4)
     setTxtProgressBar(pb, i)
-    }
+  }
   tableA[is.na(tableA)] = 0
   tableA$p_adj<-round(p.adjust(tableA$pvalue, method = p_adjust),digit=4)
   colnames(tableA)[10]<-paste0("p_adj_",p_adjust)
@@ -54,4 +54,3 @@ MaxLife_1<-function(data,treatments,lifespan,percentile=0.90,p_adjust ="BH"){
   print("Formatting dataframe")
   return(tableA)
 }
-
