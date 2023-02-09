@@ -3,9 +3,9 @@ Type: Package
 Title: MaxLife: Maximun lifespan comparison among groups under different treatments or conditions
 Author: Jorge Martinez-Romero
 Maintainer: Jorge Martinez-Romero <jqmarron@gmail.com>
-Description: Method to compare diferences in maximun lifespan between 2 or more groups.
+Description: Method to compare diferences in maximun lifespan between 2 or more groups under different tretments or conditins.
         It is based in the QT3 method described in "Statistical methods for testing effects on maximum lifespan” 
-        See references.
+        See references in documentation.
 Version: 0.1.0
 License: MIT
 Encoding: UTF-8
