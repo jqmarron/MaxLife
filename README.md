@@ -38,7 +38,7 @@ If not already installed, install devtools.
 
 Use devtools to install MaxLife.
 
-- devtools::install_github("https://github.com/jqmarron/MaxLife.git"
+- devtools::install_github("https://github.com/jqmarron/MaxLife.git")
 
 
 <h3> References </h3>
