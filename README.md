@@ -24,9 +24,9 @@ Performs in 5 Steps:
 
 <h4> Alternative 1 </h4>
 
-- Download the MaxLife_0.1.0.tar.gz file from Folder pkg.
+- Download the MaxLife_0.1.0.tar.gz file from the folder pkg.
 
-- In Rstudio open Tool>Install Packages>Install From> Select "Packages Archive Files (.zip; .tar.gz)" and select location where the  "MaxLife_0.1.0.tar.gz" is located after downloaded.
+- In Rstudio open Tool>Install Packages>Install From> Select "Packages Archive Files (.zip; .tar.gz)" and select location where the  "MaxLife_0.1.0.tar.gz" is located after downloading.
 
 - Install
 
