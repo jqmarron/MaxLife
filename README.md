@@ -5,7 +5,7 @@
 Jorge Martinez-Romero. 
 National Institute on Aging. NIH
 <h3> Description </h3>
-MaxLife statistically compares the effect of treatments or interventions on lifespan. Uses a simple method particularly usefull when distribution do not meet the assumption require by other survival analysis such as risk proportionallity, normality, etc. Two or more groups can be included in the analysis. The function identifies which groups have shorter or longer lifespan and tests the significance of that diference.
+MaxLife statistically compares the effect of treatments or interventions on lifespan. Uses a simple method particularly usefull when distribution do not meet the assumption required by other survival analysis such as risk proportionallity, normality, etc. Two or more groups can be included in the analysis. The function identifies which groups have shorter or longer lifespan and pairwise tests the significance of that diference.
 It's based on the QT3 method described in "Statistical methods for testing effects on maximum lifespan” Wang et al. 2004. A variation of a "simple significance test for quantile regression" from David T. Redden and David B. Allison. It couples quantile regression with Bonschoo Test .
 
 <h3> The main function </h3>
