@@ -12,7 +12,7 @@ It's based on the QT3 method described in "Statistical methods for testing effec
 
 <h4> MaxLife::MaxLife_1() </h4>
 
-MaxLife_1 performs in 5 Steps:
+MaxLife_1 performs in 5 steps:
 
 - ✍️ &nbsp; Estimates the predicted quantile of the outcome distribution (Y) using a quantile regression model (Q) that includes c covariates. Note if c=0, then the predicted quantile is simply the unconditional sample quantile of the marginal distribution of Y. Selecting a specific lifespan percentile is required. By default percentile 90 (P90). 
 - ✍️ &nbsp; Creates an indicator variable (I) that classifies observations within the data set as falling above (I=1) or below (I=0) the predicted percentile.
