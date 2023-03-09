@@ -14,7 +14,7 @@ It's based on the QT3 method described in "Statistical methods for testing effec
 
 MaxLife_1 performs in 5 steps:
 
-- ✍️ &nbsp; Estimates the predicted quantile of the outcome distribution (Y) using a quantile regression model (Q) that includes a categorical variable with c levels( e.g., control, diet1, diet2, diet3). Note if c=1, then the predicted quantile is simply the unconditional sample quantile of the marginal distribution of Y. Selecting a specific lifespan percentile threshold is required for later classification. By default percentile 90 (P90). 
+- ✍️ &nbsp; Estimates the predicted quantile of the outcome distribution (Y) using a quantile regression model (Q) that includes a categorical variable with c levels (e.g., control, diet1, diet2, diet3). Note if c=1, then the predicted quantile is simply the unconditional sample quantile of the marginal distribution of Y. Selecting a specific lifespan percentile threshold is required for later classification. By default percentile 90 (P90). 
 - ✍️ &nbsp; Creates an indicator variable (I) that classifies observations within the data set as falling above (I=1) or below (I=0) the predicted percentile.
 - ✍️ &nbsp; Using the indicator variable (I), builds 2x2 contingency table with frequencies of individuals and proportions.
 - ✍️ &nbsp; Pairwise compares maximun lifespan by treatment or condition. Tests the significance of group diferences using Bonschoo's test. 
