@@ -4,7 +4,7 @@ MaxLife_1<-function(data,treatments,lifespan,percentile=0.90,p_adjust ="BH"){
   library(exact2x2)
   library(utils)
   print("Loading packages")
-
+ # include chages in factorial
   aa<-with(data,get(treatments))
   if(!is.factor(aa)){stop("Only factors allowed in treatments variable")}
   meth<-c("holm", "hochberg", "hommel", "bonferroni", "BH", "BY",
