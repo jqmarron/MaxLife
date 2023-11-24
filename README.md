@@ -5,8 +5,7 @@
 Jorge Martinez-Romero. 
 TGB-LEPS. National Institute on Aging. NIH
 <h3> Description </h3>
-MaxLife statistically compares the effect of treatments or interventions on lifespan. Uses a simple method particularly usefull when distribution do not meet the assumption required by other survival analysis such as risk proportionallity, normality, etc. Two or more groups can be included in the analysis. The package identifies which groups have shorter or longer lifespan and pairwise tests the significance of that diference between groups of intervention.
-It's based on the QT3 method described in "Statistical methods for testing effects on maximum lifespan” Wang et al. 2004. A variation of a "simple significance test for quantile regression" from David T. Redden and David B. Allison. It couples quantile regression with Bonschoo Test .
+MaxLife statistically compares the effects of treatments or interventions on lifespan using a simple method, particularly useful when distributions do not meet the assumptions required by other survival analyses, such as risk proportionality and normality. The analysis accommodates two or more groups, identifying which have shorter or longer lifespans and pairwise testing the significance of the differences between intervention groups. The package is based on the method as described in 'Statistical Methods for Testing Effects on Maximum Lifespan' by Wang et al. (2004) and is a variation of a 'simple significance test for quantile regression' from David T. Redden and David B. Allison. It combines quantile regression with the Bonschoo Test.
 
 <h3> The main function </h3>
 
@@ -14,11 +13,11 @@ It's based on the QT3 method described in "Statistical methods for testing effec
 
 MaxLife_1 performs in 5 steps:
 
-- ✍️ &nbsp; Estimates the predicted quantile of the outcome distribution (Y) using a quantile regression model (Q) that includes a categorical variable with c levels (e.g., control, diet1, diet2, diet3). Note if c=1, then the predicted quantile is simply the unconditional sample quantile of the marginal distribution of Y. Selecting a specific lifespan percentile threshold is required for later classification. By default the threshold is set to percentile 90 (P90). 
-- ✍️ &nbsp; Creates an indicator variable (I) that classifies observations within the data set as falling above (I=1) or below (I=0) the predicted percentile.
-- ✍️ &nbsp; Using the indicator variable (I), builds 2x2 contingency table with frequencies of individuals and proportions.
-- ✍️ &nbsp; Pairwise compares maximun lifespan by treatment or condition. Tests the significance of group diferences using Bonschoo's test. 
-- ✍️ &nbsp; Adjusts p-value for multiple tests using the desired method (BH, FDR...).
+- ✍️ &nbsp; The function estimates the predicted quantile of the outcome distribution (Y) through a quantile regression model (Q), which incorporates a categorical variable with c levels (e.g., control, diet1, diet2, diet3). When c=1, the predicted quantile corresponds to the unconditional sample quantile of the marginal distribution of Y. To facilitate later classification, a specific lifespan percentile threshold must be chosen. The default threshold is set to the 90th percentile (P90). 
+- ✍️ &nbsp; Generates an indicator variable (I) that categorizes observations within the dataset as either above (I=1) or below (I=0) the predicted percentile.
+- ✍️ &nbsp; Utilizing the indicator variable (I), constructs a 2x2 contingency table displaying frequencies and proportions of individuals categorized as either above (I=1) or below (I=0) the predicted percentile.
+- ✍️ &nbsp; Conducts pairwise comparisons of maximum lifespan across different treatments or conditions and assesses the significance of group differences using Bonschoo's test.
+- ✍️ &nbsp; Corrects p-values for multiple tests using the specified method, such as Benjamini-Hochberg (BH), False Discovery Rate (FDR), or others, to account for the increased risk of type I errors associated with multiple comparisons.
 
 <h3> Installation </h3>
 
