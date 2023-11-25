@@ -5,7 +5,7 @@
 Jorge Martinez-Romero. 
 TGB-LEPS. National Institute on Aging. NIH
 <h3> Description </h3>
-MaxLife statistically compares the effects of treatments or interventions on lifespan using a simple method, particularly useful when distributions do not meet the assumptions required by other survival analyses, such as risk proportionality and normality. The analysis accommodates two or more groups, identifying which have shorter or longer lifespans and pairwise testing the significance of the differences between intervention groups. The package is based on the method as described in 'Statistical Methods for Testing Effects on Maximum Lifespan' by Wang et al. (2004) and is a variation of a 'simple significance test for quantile regression' from David T. Redden and David B. Allison. It combines quantile regression with the Bonschoo Test.
+MaxLife statistically compares the effects of treatments or interventions on lifespan using a simple method, particularly useful when distributions do not meet the assumptions required by other survival analyses, such as risk proportionality or a specific distribution. This analysis accommodates two or more groups, identifying which have shorter or longer lifespans and pairwise testing the significance of the differences between intervention groups. The package is based on the method as described in 'Statistical Methods for Testing Effects on Maximum Lifespan' by Wang et al. (2004) and is a variation of a 'simple significance test for quantile regression' from David T. Redden and David B. Allison. It combines quantile regression with the Bonschoo Test.
 
 <h3> The main function </h3>
 
